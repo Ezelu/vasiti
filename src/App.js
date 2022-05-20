@@ -3,6 +3,7 @@ import * as React from 'react';
 import './App.css';
 import NavBar from './components/Header/Nav1/NavBar';
 import Main_Nav from './components/Header/Main_Nav/Main_Nav';
+import Hero from './components/Hero/Hero';
 
 
 
@@ -18,6 +19,7 @@ export default function App () {
       <NavBar />
       <br />
       <Main_Nav />
+      <Hero />
     </div>
   );
 }
