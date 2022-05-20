@@ -1,0 +1,14 @@
+.navigation {
+  width: 100%;
+  padding: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 5px grey;
+}
+
+.navigation li{
+  display: inline-block;
+  padding: 1% 2%;
+  cursor: pointer;
+}
+
+

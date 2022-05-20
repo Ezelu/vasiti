@@ -87,7 +87,6 @@ export default function NavBar() {
             <li>Stories</li>
             <li>Contact</li>
             <li>Login</li>
-            {/* <li>Sign Up</li> */}
             <button> Sign Up </button>
           </ol>
         </aside>
