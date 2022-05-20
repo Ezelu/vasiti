@@ -1,5 +1,5 @@
-# FUN SCREEN
+# VASITI
 
-### ( Project is still in progress )
+### ( Interview Response )
 
-Fun screen is a web based tool that gives movie recommendations and also trending movies and TV series. 
+This repo is a response to an interview by vasiti
