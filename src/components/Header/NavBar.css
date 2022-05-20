@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav li{
+  display: inline-block;
+  padding: 0% 2%
+}
+
+
+.nav {
+  flex: 1;
+  text-align: right;
+}
+
+.nav button {
+  padding: .8% 2%;
+  background: #FF5C00;
+  outline: 0;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+}
