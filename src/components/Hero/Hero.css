@@ -5,18 +5,17 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-h2 {
+.hero h2 {
   font-size: 3em;
   font-weight: 900;
   line-height: 120%;
 }
 
-p {
+.hero p {
   font-weight: 300;
   margin-top: 2%;
   color: grey;
 }
-
 
 
 
@@ -35,15 +34,20 @@ p {
     flex-direction: column;
   }
 
-  h2 {
+  .hero h2 {
     font-size: 2.5em;
     font-weight: 900;
     line-height: 120%;
   }
 
-  p {
+  .hero p {
     font-weight: 300;
     margin-top: 2%;
     color: grey;
+  }
+
+  .hero img {
+    margin-top: 5%;
+    width: 100%;
   }
 }

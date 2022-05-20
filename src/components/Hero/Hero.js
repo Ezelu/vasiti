@@ -11,7 +11,7 @@ export default function Hero () {
         us, you can share your stories with us too. </p>
       </aside>
       <aside>
-        <img src='./testimonial_image.png' alt='testimonial image of boy and girl smiling' />
+        <img src='./images/testimonial_image.png' alt='testimonial image of boy and girl smiling' />
       </aside>
 
     </div>
