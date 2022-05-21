@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from '@mui/material';
-import './Hero.css'
+import './Hero.css';
+import testimonial_image from '../../images/images/testimonial_image.png';
 
 export default function Hero () {
   return (
@@ -11,7 +12,7 @@ export default function Hero () {
         us, you can share your stories with us too. </p>
       </aside>
       <aside>
-        <img src='./images/testimonial_image.png' alt='testimonial image of boy and girl smiling' />
+        <img src={testimonial_image} alt='testimonial image of boy and girl smiling' />
       </aside>
 
     </div>

@@ -6,7 +6,9 @@ import Main_Nav from './components/Header/Main_Nav/Main_Nav';
 import Hero from './components/Hero/Hero';
 import HeroTestimony from './components/HeroTestimony/HeroTestimony';
 import Testimonies from './components/Testimonies/Testimonies';
-
+import HeroTestimony2 from './components/HeroTestimony2/HeroTestimony2';
+import Footer from './components/Footer/Footer';
+import { data1, data2 } from './components/Testimonies/data';
 
 
 export default function App () {
@@ -22,7 +24,10 @@ export default function App () {
       <Main_Nav />
       <Hero />
       <HeroTestimony />
-      <Testimonies />
+      <Testimonies data={data1}/>
+      <HeroTestimony2 />
+      <Testimonies data={data2}/>
+      <Footer />
     </div>
   );
 }
