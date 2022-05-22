@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeroTestimony.css';
 import black_girls from '../../images/images/black_girls.png';
-
+import Share from '../Modals/Share';
 
 
 
@@ -22,7 +22,8 @@ export default function HeroTestimony () {
             customer service, an all round great
             experience. I would definately be coming back! </p>
           
-        <h3> SHARE YOUR OWN STORY </h3> 
+        {/* <h3> SHARE YOUR OWN STORY </h3>  */}
+        <Share />
       </aside>
       <aside>
         <img src={black_girls} alt='two black girls smiling' />
