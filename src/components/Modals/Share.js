@@ -2,13 +2,12 @@ import * as React from 'react';
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import {orange} from '@mui/material/colors'
-import Box from '@mui/material/Box';
-import vector_3 from '../../images/Vector_3.png'
+import Box from '@mui/material/Box'
 import Modal from '@mui/material/Modal';
-import {AttachEmail, AttachFile} from '@mui/icons-material'
+import { AttachFile } from '@mui/icons-material'
 import { makeStyles } from '@material-ui/core';
 import {TextField, InputAdornment} from '@mui/material';
+import Congrats from './Congrats';
 
 
 
@@ -25,6 +24,8 @@ const useStyles = makeStyles(() => ({
     background: 'white',
     boxShadow: '0 0 20px black',
     padding: '2%',
+    overflow: 'auto',
+    height: '80vh'
   },
   header: {
     marginTop: '10%',
@@ -49,19 +50,45 @@ const useStyles = makeStyles(() => ({
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  button: {
-    padding: '2% 5%',
-    border: 0,
-    outline: 0,
-    width: '50%',
-    color: 'white',
-    borderRadius: '5px',
-    fontSize: '1.4em',
-    background: '#FF5C00',
-    marginTop: '5%',
-    marginLeft: '50%',
+
+
+
+  '@media (max-width: 900px)' : {
+    container: {
+      width: '90%',
+      padding: '4%'
+    }
+  },
+
+
+
+  '@media (max-width: 600px)' : {
+    personal_details: {
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+    },
+    aside: {
+      width: '100%',
+    },
+    span: {
+      margin: '3% 0 3%',
+    },
+    radio: {
+      flexDirection: 'column',
+      marginTop: '3%',
+    },
   }
 }))
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -133,11 +160,10 @@ export default function Share () {
 
             </aside>
           </div>
-
           <span className={classes.span}> City or Higher Insitution (for students) </span>
           <TextField fullWidth/>
 
-          <button className={classes.button}> Share </button>
+          <Congrats close_share={handleClose}/>
         </Box>
       </Modal>
     </div>

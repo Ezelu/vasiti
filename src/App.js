@@ -12,11 +12,6 @@ import { data1, data2 } from './components/Testimonies/data';
 
 
 export default function App () {
-
-
-
-
-
   return (
     <div>
       <NavBar />
